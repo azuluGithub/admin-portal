@@ -1,0 +1,47 @@
+:root {
+  /** Font-Families **/
+  --ff-primary: 'Raleway', sans-serif;
+  --ff-secondary: 'Roboto Condensed', sans-serif;
+  --ff-tertiary: 'Roboto', sans-serif;
+  --ff-base: 'Source Sans Pro', sans-serif;
+  --ff-portal-primary: Roboto, Helvetica, Arial, sans-serif;
+
+  /** Font-Sizes **/
+  --fs-sm: 0.5rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.5rem;
+  --fs-xl: 2rem;
+  --fs-xxl: 2.5rem;
+  --fs-xxxl: 5rem;
+
+  /** Margins && Paddings **/
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 2.5rem;
+  --space-xxxl: 5rem;
+
+  /** Colors **/
+  --clr-text: #1d1f22;
+  --clr-text-medium: #757373;
+  --clr-grey-light: #ccc;
+  --clr-grey-faint: #f8f8f8;
+  --clr-white: #fff;
+  --hover-clr: #eee;
+  --clr-primary-weak: #3e40a535;
+  --clr-primary-medium: #3e40a5b5;
+  --clr-primary: #3e40a5;
+  --clr-secondary: #e5333c;
+  --clr-amber: rgb(247, 247, 6);
+  --clr-success: #5ece7b;
+  --clr-neutral: rgb(30, 177, 221);
+  --clr-failure: rgb(235, 85, 85);
+  --clr-portal-primary: #1f1f21;
+  --clr-portal-secondary: #2982eb;
+
+  --box-shadow: 0px 8px 16px 0px rgb(226, 223, 223);
+
+  --container-width: min(90%, 70.5rem);
+  --container-margin: auto;
+}

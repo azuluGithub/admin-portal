@@ -1,0 +1,25 @@
+.SingleEmployee {
+    display: flex;
+    justify-content: space-between;
+
+    &-EmployeeCard{
+        width: 60%;
+    }
+
+    &-EmployeeUpdate{
+        width: 35%;
+    }
+
+    @media only screen and (max-width: 750px) {
+        flex-direction: column;
+        
+        &-EmployeeCard,
+        &-EmployeeUpdate {
+            width: 100%;
+        }
+
+        &-EmployeeCard {
+            margin-bottom: var(--space-xl);
+        }
+    }
+}

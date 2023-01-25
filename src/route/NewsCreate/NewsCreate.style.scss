@@ -1,0 +1,25 @@
+.SingleNews {
+    display: flex;
+    justify-content: space-between;
+
+    &-NewsCard{
+        width: 60%;
+    }
+
+    &-NewsUpdate{
+        width: 35%;
+    }
+
+    @media only screen and (max-width: 750px) {
+        flex-direction: column;
+        
+        &-NewsCard,
+        &-NewsUpdate {
+            width: 100%;
+        }
+
+        &-NewsCard {
+            margin-bottom: var(--space-xl);
+        }
+    }
+}

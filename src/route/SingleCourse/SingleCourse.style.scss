@@ -1,0 +1,25 @@
+.SingleCourse {
+    display: flex;
+    justify-content: space-between;
+
+    &-CourseCard{
+        width: 60%;
+    }
+
+    &-CourseUpdate{
+        width: 35%;
+    }
+
+    @media only screen and (max-width: 750px) {
+        flex-direction: column;
+        
+        &-CourseCard,
+        &-CourseUpdate {
+            width: 100%;
+        }
+
+        &-CourseCard {
+            margin-bottom: var(--space-xl);
+        }
+    }
+}
